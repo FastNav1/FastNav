@@ -23,6 +23,8 @@
 git clone https://github.com/FastNav1/FastNav.git
 ```
 2. Create environment
-``````
+```
+conda activate fastnav
+```
 
 ## 📁 Directory 
