@@ -4,3 +4,10 @@ FastNav is an efficient vision-conditioned diffusion framework for RGB-only imag
 <p align="center">
   <img src="assets/architecture_of_FastNav.png" width="800">
 </p>
+
+## 📌 TODO List
+
+- [ ] Release training and deployment code (comming soon!) 
+- [ ] Update experimental demo videos
+
+## ⚙️ Environment Setup
