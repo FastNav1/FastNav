@@ -4,11 +4,11 @@
 
 🔹 Architecture of FastNav: 
 <p align="center">
-  <img src="assets/architecture_of_FastNav.png" width="800">
+  <img src="assets/architecture_of_FastNav.png" width="600">
 </p> 
 🔹 Distillation Framework: 
 <p align="center">
-  <img src="assets/distillation.png" width="800">
+  <img src="assets/distillation.png" width="600">
 </p> 
 
 ## 📌 TODO List
@@ -20,7 +20,7 @@
 
 1. Clone FastNav
 ```
-git clone 
+git clone https://github.com/FastNav1/FastNav.git
 ```
 
 
