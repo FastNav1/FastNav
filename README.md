@@ -40,4 +40,4 @@ pip install -e diffusion_policy/
 - [SCAND](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html#Links)
 - [SACSoN](https://sites.google.com/view/sacson-review/huron-dataset)
 
-3. 
+2. 
