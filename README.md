@@ -36,5 +36,8 @@ pip install -e diffusion_policy/
 
 1. Download public datasets:
 - [GoStanford2](https://drive.google.com/drive/folders/1RYseCpbtHEFOsmSX2uqNY_kvSxwZLVP_)
+- [RECON](https://sites.google.com/view/recon-robot/dataset) 
+- [SCAND](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html#Links)
+- [SACSoN](https://sites.google.com/view/sacson-review/huron-dataset)
 
 3. 
