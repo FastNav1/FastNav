@@ -25,6 +25,16 @@ git clone https://github.com/FastNav1/FastNav.git
 2. Create environment
 ```
 conda activate fastnav
+pip install -e train/
+git clone git@github.com:real-stanford/diffusion_policy.git
+pip install -e diffusion_policy/
 ```
 
 ## 📁 Directory 
+
+## 📦 Data Preparation
+
+1. Download public datasets:
+- [GoStanford2](https://drive.google.com/drive/folders/1RYseCpbtHEFOsmSX2uqNY_kvSxwZLVP_)
+
+3. 
