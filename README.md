@@ -17,3 +17,13 @@
 - [ ] Update experimental demo videos
 
 ## ⚙️ Environment Setup
+
+1. Clone FastNav
+```
+git clone 
+```
+
+
+3. 
+
+## 📁 Directory 
