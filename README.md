@@ -1,6 +1,6 @@
 # FastNav：An Efficient and Relible Visual Navigation Approach via Diffusion Distillation
 
-**Overview:** FastNav is an efficient vision-conditioned diffusion framework for RGB-only image-goal navigation. It performs navigation by generating future motion trajectories. The framework introduces Temporal-Dilated Attention (TDA) and Temporal–Feature Decoupled Reweighting (TFDR) mechanisms to maintain a lightweight architecture while preserving strong scene understanding. Additionally, it employs dual-gradient distillation to compress the denoising process into a single denoising step for real-time generation of high-quality trajectories.  
+**Overview:** FastNav is an efficient vision-conditioned diffusion framework for RGB-only image-goal navigation. It performs navigation by generating future motion trajectories. The framework introduces Temporal-Dilated Attention (TDA) and Temporal–Feature Decoupled Reweighting (TFDR) mechanisms to maintain a lightweight architecture while preserving strong scene understanding. Additionally, it employs bidirectional-gradient distillation to compress the denoising process into a single denoising step for real-time generation of high-quality trajectories.  
 
 🔹 Architecture of FastNav: 
 <p align="center">
@@ -15,6 +15,10 @@
 
 - [ ] Release training and deployment code (comming soon!) 
 - [ ] Update experimental demo videos
+
+## 🎥 Experiment Videos
+
+
 
 ## ⚙️ Environment Setup
 
