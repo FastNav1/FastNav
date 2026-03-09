@@ -48,10 +48,10 @@
 - [SCAND](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html#Links)
 - [SACSoN](https://sites.google.com/view/sacson-review/huron-dataset) 
 
-    After downloading the public datasets above, process these datasets using the following steps:
+    After downloading the public datasets above, process these datasets using the following steps.
 
 ### Process datasets:
-1. Process rosbag files with `process_bags.py` or RECON HDF5 datasets with `process_recon.py`： 
+1. Process rosbag files with `process_bags.py` or RECON HDF5s with `process_recon.py`： 
     ```
     python train/process_bags.py  # for processing rosbags
     python train/process_recon.py # for processing RECON HDF5s
@@ -73,5 +73,6 @@
         	├── ...
             ├── T_N.jpg
             └── traj_data.pkl
-    ``` 
+    ```
+    Each trajectory consists of forward-facing RGB observations and a corresponding `traj_data.pkl` dictionary containing the robot's `position` (and `yaw`) at each observation.
     
