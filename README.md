@@ -47,27 +47,28 @@ pip install -e diffusion_policy/
 - [RECON](https://sites.google.com/view/recon-robot/dataset) 
 - [SCAND](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html#Links)
 - [SACSoN](https://sites.google.com/view/sacson-review/huron-dataset)
+After downloading the public datasets above, process these datasets using the following steps:
 
 ### Process datasets:
 1. Process rosbag files with `process_bags.py` or RECON HDF5 datasets with `process_recon.py`.
-```
-python train/process_bags.py  # for processing rosbags
-python train/process_recon.py # for processing RECON HDF5s
-```
-This will produce a dataset structured as follows:
-```
-├── <dataset_name>
-│   ├── <name_of_traj1>
-│   │   ├── 0.jpg
-│   │   ├── 1.jpg
-│   │   ├── ...
-│   │   ├── T_1.jpg
-│   │   └── traj_data.pkl
-│   ...
-└── └── <name_of_trajN>
-    	├── 0.jpg
-    	├── 1.jpg
-    	├── ...
-        ├── T_N.jpg
-        └── traj_data.pkl
+  ```
+  python train/process_bags.py  # for processing rosbags
+  python train/process_recon.py # for processing RECON HDF5s
+  ```
+  This will produce a dataset structured as follows:
+  ```
+  ├── <dataset_name>
+  │   ├── <name_of_traj1>
+  │   │   ├── 0.jpg
+  │   │   ├── 1.jpg
+  │   │   ├── ...
+  │   │   ├── T_1.jpg
+  │   │   └── traj_data.pkl
+  │   ...
+  └── └── <name_of_trajN>
+      	├── 0.jpg
+      	├── 1.jpg
+      	├── ...
+          ├── T_N.jpg
+          └── traj_data.pkl
 ```
