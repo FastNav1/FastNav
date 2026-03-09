@@ -18,7 +18,15 @@
 
 ## 🎥 Experiment Videos
 
+<table>
+<tr>
 
+<td width="33%">
+<video src="assets/video_1.mp4" controls width="100%"></video>
+</td>
+
+</tr>
+</table>
 
 ## ⚙️ Environment Setup
 
