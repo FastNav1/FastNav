@@ -18,7 +18,7 @@
 
 ## 🎥 Experiment Videos
 
-
+https://github.com/FastNav1/FastNav/issues/1#issue-4045158647
 
 ## ⚙️ Environment Setup
 
