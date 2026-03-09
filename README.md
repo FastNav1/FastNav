@@ -18,15 +18,9 @@
 
 ## 🎥 Experiment Videos
 
-<table>
-<tr>
+https://github.com/user-attachments/assets/204a17e5-88d2-4a22-b436-0231e50a4320
 
-<td width="33%">
-<video src="assets/video_1.mp4" controls width="100%"></video>
-</td>
 
-</tr>
-</table>
 
 ## ⚙️ Environment Setup
 
