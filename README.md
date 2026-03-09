@@ -19,19 +19,18 @@
 ## 🎥 Experiment Videos
 
 
-<table>
-<tr>
-<td width="33%">
-<video src="[VIDEO_LINK_1](https://github.com/FastNav1/FastNav/issues/1#issue-4045158647)" controls width="100%"></video>
-</td>
 
 ## ⚙️ Environment Setup
 
-1. Clone the repository
+1. Clone the repository：
 ```
 git clone https://github.com/FastNav1/FastNav.git
 ```
-2. Create environment
+2. Set up the conda environment:
+```
+conda env create -f train/train_environment.yml
+```
+3. Create environment
 ```
 conda activate fastnav
 pip install -e train/
