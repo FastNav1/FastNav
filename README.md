@@ -18,13 +18,12 @@
 
 ## 🎥 Experiment Videos
 
+
 <table>
 <tr>
 <td width="33%">
-<video src="https://github.com/FastNav1/FastNav/issues/1#issue-4045158647" controls width="100%"></video>
+<video src="[VIDEO_LINK_1](https://github.com/FastNav1/FastNav/issues/1#issue-4045158647)" controls width="100%"></video>
 </td>
-
-
 
 ## ⚙️ Environment Setup
 
