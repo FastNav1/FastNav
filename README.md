@@ -22,8 +22,8 @@
 
 ## ⚙️ Environment Setup
 
-1. Clone the repository：
-```
+1. Clone the repository：  
+    ```
 git clone https://github.com/FastNav1/FastNav.git
 ```
 2. Set up the conda environment:
