@@ -30,7 +30,7 @@ git clone https://github.com/FastNav1/FastNav.git
 ```
 conda env create -f train/train_environment.yml
 ```
-3. Create environment
+3. Install packages:
 ```
 conda activate fastnav
 pip install -e train/
