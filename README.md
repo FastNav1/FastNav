@@ -51,11 +51,12 @@ pip install -e diffusion_policy/
 After downloading the public datasets above, process these datasets using the following steps:
 
 ### Process datasets:
-1. Process rosbag files with `process_bags.py` or RECON HDF5 datasets with `process_recon.py`：
-   ```
+1. Process rosbag files with `process_bags.py` or RECON HDF5 datasets with `process_recon.py`： 
+  ```
   python train/process_bags.py  # for processing rosbags
   python train/process_recon.py # for processing RECON HDF5s
-  ``` 
+  ```
+
   This will produce a dataset structured as follows:
   ``` 
   ├── <dataset_name>
