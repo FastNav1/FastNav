@@ -23,20 +23,20 @@
 ## ⚙️ Environment Setup
 
 1. Clone the repository：  
-  ```
-  git clone https://github.com/FastNav1/FastNav.git
-  ```
+    ```
+    git clone https://github.com/FastNav1/FastNav.git
+    ```
 2. Set up the conda environment:
-  ```
-  conda env create -f train/train_environment.yml
-  ```
+    ```
+    conda env create -f train/train_environment.yml
+    ```
 3. Install packages:
-  ```
-  conda activate fastnav
-  pip install -e train/
-  git clone git@github.com:real-stanford/diffusion_policy.git
-  pip install -e diffusion_policy/
-  ```
+    ```
+    conda activate fastnav
+    pip install -e train/
+    git clone git@github.com:real-stanford/diffusion_policy.git
+    pip install -e diffusion_policy/
+    ```
 
 ## 📁 Directory 
 
@@ -48,30 +48,30 @@
 - [SCAND](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html#Links)
 - [SACSoN](https://sites.google.com/view/sacson-review/huron-dataset) 
 
-  After downloading the public datasets above, process these datasets using the following steps:
+    After downloading the public datasets above, process these datasets using the following steps:
 
 ### Process datasets:
 1. Process rosbag files with `process_bags.py` or RECON HDF5 datasets with `process_recon.py`： 
-  ```
-  python train/process_bags.py  # for processing rosbags
-  python train/process_recon.py # for processing RECON HDF5s
-  ```   
+    ```
+    python train/process_bags.py  # for processing rosbags
+    python train/process_recon.py # for processing RECON HDF5s
+    ```   
 
-  This will produce a dataset structured as follows:
-  ``` 
-  ├── <dataset_name>
-  │   ├── <name_of_traj1>
-  │   │   ├── 0.jpg
-  │   │   ├── 1.jpg
-  │   │   ├── ...
-  │   │   ├── T_1.jpg
-  │   │   └── traj_data.pkl
-  │   ...
-  └── └── <name_of_trajN>
-      	├── 0.jpg
-      	├── 1.jpg
-      	├── ...
-          ├── T_N.jpg
-          └── traj_data.pkl
-  ``` 
-  
+    This will produce a dataset structured as follows:
+    ``` 
+    ├── <dataset_name>
+    │   ├── <name_of_traj1>
+    │   │   ├── 0.jpg
+    │   │   ├── 1.jpg
+    │   │   ├── ...
+    │   │   ├── T_1.jpg
+    │   │   └── traj_data.pkl
+    │   ...
+    └── └── <name_of_trajN>
+        	├── 0.jpg
+        	├── 1.jpg
+        	├── ...
+            ├── T_N.jpg
+            └── traj_data.pkl
+    ``` 
+    
