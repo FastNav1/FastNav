@@ -51,6 +51,7 @@
     After downloading the public datasets above, process these datasets using the following steps.
 
 ### Process datasets:
+
 1. Process rosbag files with `process_bags.py` or RECON HDF5s with `process_recon.py`： 
     ```
     python train/process_bags.py  # for processing rosbags
@@ -88,3 +89,10 @@
               └── traj_names.txt 
       ```
     
+## 🧠 Model Training
+
+The training pipeline of **FastNav** consists of two stages.  
+
+1. We first train a teacher navigation model based on a full diffusion policy to learn robust trajectory prediction from visual observations.
+      ```bash
+      python train_teacher.py --config config/fastnav_teacher.yaml
