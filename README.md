@@ -80,11 +80,11 @@
      - `yaw`: An np.ndarray [T,] of the yaws of the robot at each image observation.
 
   2. After running `data_split.py`, the processed data splits will be organized under `vint_release/train/vint_train/data/data_splits/` with the following structure:
-    ``` 
-    ├── <dataset_name>
-    │   ├── train
-    |   |   └── traj_names.txt
-    └── └── test
-            └── traj_names.txt 
-    ```
+      ``` 
+      ├── <dataset_name>
+      │   ├── train
+      |   |   └── traj_names.txt
+      └── └── test
+              └── traj_names.txt 
+      ```
     
