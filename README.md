@@ -81,7 +81,6 @@
      - `yaw`: An np.ndarray [T,] of the yaws of the robot at each image observation.
 
   2. Run `data_split.py` on your dataset folder with the relevant args. After running `data_split.py`, the processed data splits will be organized under `vint_release/train/vint_train/data/data_splits/` with the following structure:  
-2. 在数据集文件夹上运行 data_split.py 并传入相关参数 。 运行 ` data_split.py` 后，处理后的数据分割结果将按照以下结构组织在 ` vint_release/train/vint_train/data/data_splits/ ` 目录下：
       ``` 
       ├── <dataset_name>
       │   ├── train
