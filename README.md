@@ -93,7 +93,7 @@
 
 The training pipeline of **FastNav** consists of two stages.  
 
-1. We first train a teacher navigation model based on a full diffusion policy to learn robust trajectory prediction from visual observations.
+1. We first train a teacher navigation model based on a full diffusion policy to learn robust trajectory generation from visual observations.
       ```bash
       python train_teacher.py --config config/fastnav_teacher.yaml
 
@@ -101,4 +101,4 @@ The training pipeline of **FastNav** consists of two stages.
       ```bash
       python train_distill.py --config config/distill.yaml
 
-  The config yaml files are in the train/config directory.
+      The config yaml files are in the `train/config` directory.
