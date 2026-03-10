@@ -75,4 +75,16 @@
             └── traj_data.pkl
     ```
     Each trajectory consists of forward-facing RGB observations and a corresponding `traj_data.pkl` dictionary containing the robot's `position` (and `yaw`) at each observation.
+
+     - `position`: An np.ndarray [T, 2] of the xy-coordinates of the robot at each image observation.
+     - `yaw`: An np.ndarray [T,] of the yaws of the robot at each image observation.
+
+  2. After running `data_split.py`, the processed data splits will be organized under `vint_release/train/vint_train/data/data_splits/` with the following structure:
+    ``` 
+    ├── <dataset_name>
+    │   ├── train
+    |   |   └── traj_names.txt
+    └── └── test
+            └── traj_names.txt 
+    ```
     
