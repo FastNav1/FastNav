@@ -18,7 +18,9 @@
 
 ## 🎥 Experiment Videos
 
-
+| Demo 1 |
+|-------|
+| ![](assets/video_1.mp4)
 
 ## ⚙️ Environment Setup
 
