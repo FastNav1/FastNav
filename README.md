@@ -134,8 +134,9 @@ The training pipeline of **FastNav** consists of two stages.
 ## 🤖 Experimental Platform
 
 ### Real-World Platform
-Our real-world platform is a **mobile manipulation robot**, equipped with an **NVIDIA Jetson Orin NX** for onboard computation and an **Intel RealSense D435i** RGB-D camera for RGB-only inputs.
+Our real-world platform is a **mobile manipulation robot**, equipped with an **NVIDIA Jetson Orin NX** for onboard computation and an **Intel RealSense D435i** camera for RGB-only inputs.
 
 ### Simulation Platform
 All simulation experiments are conducted in **[NVIDIA Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/index.html)** using the **Jackal** mobile robot.  
-We provide the complete **Universal Scene Description (USD)** files, including the **scene, robot configuration, and pre-configured Action Graph**, which can be found here: ➡️ [`simulation.usd`](simulation/simulation.usd)
+
+We provide the complete **Universal Scene Description (USD)** file, including the **scene, robot configuration, and pre-configured Action Graph**, which can be found here: ➡️ [`simulation.usd`](simulation/simulation.usd)
