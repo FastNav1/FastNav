@@ -140,3 +140,8 @@ Our real-world platform is a **mobile manipulation robot**, equipped with an **N
 All simulation experiments are conducted in **[NVIDIA Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/index.html)** using the **Jackal** mobile robot.  
 
 We provide the complete **Universal Scene Description (USD)** file, including the **scene, robot configuration, and pre-configured Action Graph**, which can be found here: ➡️ [`simulation.usd`](assets/simulation.usd)
+
+
+## Acknowledgement 
+
+This work is built upon the **[NoMaD](https://github.com/robodhruv/visualnav-transformer)**. We sincerely thank the authors of NoMaD for their valuable contributions to the field of robotic navigation, which have greatly inspired and enabled our research.
