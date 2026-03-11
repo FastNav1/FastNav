@@ -18,11 +18,7 @@
 
 ## 🎥 Experiment Videos
 
-| Overview |
-|------------------|
-|https://github.com/user-attachments/assets/d537aa8e-ca81-4a4b-9059-219270497d8a|
-
-
+https://github.com/user-attachments/assets/958a91cc-593c-4b95-90f3-1039ed96edb5
 
 ## ⚙️ Environment Setup
 
