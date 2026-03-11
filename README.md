@@ -20,7 +20,7 @@
 
 https://github.com/user-attachments/assets/958a91cc-593c-4b95-90f3-1039ed96edb5
 
-## ⚙️ Environment Setup
+## ⚙️ Environment Setup (Training)
 
 1. Clone the repository：  
     ```
@@ -105,3 +105,18 @@ The training pipeline of **FastNav** consists of two stages.
       ```
 
       The config yaml files are in the `train/config` directory.
+
+## 🚀 Deployment
+
+1. Environment setup (Deployment)
+    ```
+    conda env create -f deployment/deployment_environment.yaml
+    conda activate fastnav_deployment
+    pip install -e train/
+    pip install -e diffusion_policy/
+    ```
+
+2. Collecting a Topological Map
+    For collecting the **topological navigation map**, we follow the implementation provided in the [Collecting a Topological Map](https://github.com/robodhruv/visualnav-transformer?tab=readme-ov-file#collecting-a-topological-map) project.
+
+   
