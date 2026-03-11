@@ -139,4 +139,4 @@ Our real-world platform is a **mobile manipulation robot**, equipped with an **N
 ### Simulation Platform
 All simulation experiments are conducted in **[NVIDIA Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/index.html)** using the **Jackal** mobile robot.  
 
-We provide the complete **Universal Scene Description (USD)** file, including the **scene, robot configuration, and pre-configured Action Graph**, which can be found here: ➡️ [`simulation.usd`](simulation/simulation.usd)
+We provide the complete **Universal Scene Description (USD)** file, including the **scene, robot configuration, and pre-configured Action Graph**, which can be found here: ➡️ [`simulation.usd`](assets/simulation.usd)
