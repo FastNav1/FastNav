@@ -12,8 +12,8 @@
 </p> 
 
 ## 📌 TODO List
-
-- [ ] Release training and deployment code (comming soon!) 
+- [x] Release training code
+- [ ] Release deployment code (comming soon!) 
 - [ ] Update experimental demo videos
 
 ## 🎥 Experiment Videos
