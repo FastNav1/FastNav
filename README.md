@@ -120,4 +120,7 @@ The training pipeline of **FastNav** consists of two stages.
 
     For collecting the **topological navigation map**, we follow the implementation provided in the [Collecting a Topological Map](https://github.com/robodhruv/visualnav-transformer?tab=readme-ov-file#collecting-a-topological-map). Please refer it. 
 
-3. 
+3. We provide deployment implementations for both **ROS** and **ROS2**:
+
+- **ROS:** [ros-noetic](https://wiki.ros.org/noetic)  
+- **ROS2:** [ros2-humble](https://docs.ros.org/en/humble/index.html)
