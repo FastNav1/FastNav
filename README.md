@@ -120,7 +120,12 @@ The training pipeline of **FastNav** consists of two stages.
 
     For collecting the **topological navigation map**, we follow the implementation provided in the [Collecting a Topological Map](https://github.com/robodhruv/visualnav-transformer?tab=readme-ov-file#collecting-a-topological-map). Please refer it. 
 
-3. We provide deployment implementations for both **ROS** and **ROS2**:
+3. You can find the ROS1 (**[ros-noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)**) and ROS2 (**[ros2-humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)**) inference implementations in [`navigate.py`](deployment/src/navigate.py) and [`navigate_2.py`](deployment/src/navigate_2.py).
 
-- **ROS:** [ros-noetic](https://wiki.ros.org/noetic)  
-- **ROS2:** [ros2-humble](https://docs.ros.org/en/humble/index.html)
+    Make sure to run these script inside the `/deployment/src/` directory.
+    ```
+    python navigate.py  # or python navigate_2.py
+    python pd_controller.py  # or python pd_controller_2.py
+    ```
+
+    The model, robot, and ROS topic configurations can be adjusted in the `deployment/config/` folder and in [`topic_names.py`](deployment/src/topic_names.py).
