@@ -116,7 +116,8 @@ The training pipeline of **FastNav** consists of two stages.
     pip install -e diffusion_policy/
     ```
 
-2. Collecting a Topological Map
-    For collecting the **topological navigation map**, we follow the implementation provided in the [Collecting a Topological Map](https://github.com/robodhruv/visualnav-transformer?tab=readme-ov-file#collecting-a-topological-map) project.
+2. Collecting Topological Map
 
-   
+    For collecting the **topological navigation map**, we follow the implementation provided in the [Collecting a Topological Map](https://github.com/robodhruv/visualnav-transformer?tab=readme-ov-file#collecting-a-topological-map). Please refer it. 
+
+3. 
