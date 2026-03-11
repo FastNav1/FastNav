@@ -128,4 +128,4 @@ The training pipeline of **FastNav** consists of two stages.
     python pd_controller.py  # or python pd_controller_2.py
     ```
 
-    The model, robot, and ROS topic configurations can be adjusted in the `deployment/config/` folder and in [`topic_names.py`](deployment/src/topic_names.py).
+    The model, robot, and ROS topic configurations can be adjusted in the `deployment/config/` folder and [`topic_names.py`](deployment/src/topic_names.py).
