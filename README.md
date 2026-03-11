@@ -115,16 +115,17 @@ The training pipeline of **FastNav** consists of two stages.
     pip install -e train/
     pip install -e diffusion_policy/
     ```
+2. Place the trained model checkpoint `*.pth` in the `deployment/model_weights` and update `deployment/config/models.yaml` before starting inference.
 
-2. Collecting Topological Map
+3. Collecting Topological Map
 
     For collecting the **topological navigation map**, we follow the implementation provided in the [Collecting a Topological Map](https://github.com/robodhruv/visualnav-transformer?tab=readme-ov-file#collecting-a-topological-map). Please refer it. 
 
-3. You can find the ROS1 (**[ros-noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)**) and ROS2 (**[ros2-humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)**) inference implementations in [`navigate.py`](deployment/src/navigate.py) and [`navigate_2.py`](deployment/src/navigate_2.py).
+4. You can find the ROS1 (**[ros-noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)**) and ROS2 (**[ros2-humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)**) inference implementations in [`navigate.py`](deployment/src/navigate.py) and [`navigate_2.py`](deployment/src/navigate_2.py).
 
-    Make sure to run these script inside the `/deployment/src/` directory.
+    Make sure to run these script inside the `/deployment/src/` directory. 
     ```
-    python navigate.py  # or python navigate_2.py
+    python navigate.py --model fastnav  # or python navigate_2.py --model fastnav
     python pd_controller.py  # or python pd_controller_2.py
     ```
 
