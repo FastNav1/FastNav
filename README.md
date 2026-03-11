@@ -20,7 +20,7 @@
 
 | Overview |
 |-------|
-| ![](assets/video_1.mp4)|
+| ![](video_overview.mp4)|
 
 ## ⚙️ Environment Setup
 
