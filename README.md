@@ -10,6 +10,10 @@
 <p align="center">
   <img src="assets/distillation.png" width="600">
 </p> 
+🔹 Visualizing trajectory quality of single-step denoising: 
+<p align="center">
+  <img src="assets/trajectory_generation.png" width="600">
+</p> 
 
 ## 📌 TODO List
 - [x] Release training code
